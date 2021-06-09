@@ -1,0 +1,50 @@
+{
+  "_from": "teach-setup-koa",
+  "_id": "teach-setup-koa@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-tfh19VwDS3DNx6OxcMk0orYXZlmaVc+lleqsf+OY2sFr13s6Jf8e7HkMCnfKEO9Ze8k13YupmbXlZeIizyqSoA==",
+  "_location": "/teach-setup-koa",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "teach-setup-koa",
+    "name": "teach-setup-koa",
+    "escapedName": "teach-setup-koa",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/teach-setup-koa/-/teach-setup-koa-1.0.0.tgz",
+  "_shasum": "b2c783d53cdefa6133f6140a6d759eefb1643783",
+  "_spec": "teach-setup-koa",
+  "_where": "D:\\02TT\\sd-app-cli",
+  "author": "",
+  "bin": {
+    "teach-setup-koa": "bin/index.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "execa": "^5.1.1",
+    "inquirer": "^8.1.0"
+  },
+  "deprecated": false,
+  "description": "",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "teach-setup-koa",
+  "scripts": {
+    "test": "rm -rf ./hei && node ./bin/index.js"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
